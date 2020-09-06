@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f;
+}
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.container img {
+  height: 70px;
+  width: auto;
+}
+
+.nav {
+  float: right;
+  list-style: none;
+}
+
+.nav-list {
+  float: left;
+  padding: 0 30px;
+  line-height: 70px;
+}
+
+.nav-list a {
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+#mv {
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.mv-title {
+  padding-top: 200px;
+  font-family: "Raleway", sans-serif;
+  font-size: 64px;
+  color: #fafafa;
+}
+
+.mv-text {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  color: #fafafa;
+}
+
+#portfolio {
+  width: 980px;
+  height: auto;
+  background-color: #eceff1;
+}
+
+.heading {
+  padding-top: 90px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.heading-text {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 16px;
+}
