@@ -13,6 +13,13 @@ header {
   width: 1024px;
   margin: 0 auto;
 }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .container img {
   height: 70px;
   width: auto;
@@ -59,8 +66,6 @@ header {
 }
 
 #portfolio {
-  width: 980px;
-  height: auto;
   background-color: #eceff1;
 }
 
@@ -84,4 +89,137 @@ header {
   padding-top: 30px;
   text-align: center;
   font-size: 16px;
+}
+.production-group {
+  /* width: 920px; */
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+.production {
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin: 10px 10px;
+}
+.bg-1 {
+  background-image: url(img/sketch.jpg);
+}
+
+.bg-2 {
+  background-image: url(img/talk.jpg);
+}
+
+.bg-3 {
+  background-image: url(img/webcamp.png);
+}
+
+.bg-4 {
+  background-image: url(img/webcamp-mother.png);
+}
+
+.bg-5 {
+  background-image: url(img/websuku.png);
+}
+
+.bg-6 {
+  background-image: url(img/write.jpg);
+}
+
+.production:nth-child(3n) {
+  margin-right: 0;
+}
+
+.production:nth-child(-n + 3) {
+  margin-top: 0;
+}
+
+#Profile {
+  background-color: #eceff1;
+}
+.strength-group {
+  /* width: 980px; */
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.strength {
+  float: left;
+  width: 320px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.contact-group {
+  width: 800px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.strength-title {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.strength-text {
+  text-align: left;
+  font-size: 16px;
+}
+
+.right-contact-content {
+  width: 170px;
+  margin: 0 auto;
+}
+
+.profile-group {
+  padding: 30px 0 90px 0;
+}
+.my-face {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-image: url(img/my-icon.jpg);
+}
+.left-content {
+  width: 50%;
+  float: left;
+}
+
+.right-content {
+  width: 50%;
+  float: right;
+}
+
+.left-contact-content {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.right-contact-content {
+  width: 170px;
+  margin: 0 auto;
+}
+.discription-title {
+  margin: 20px 0 5px 0;
+  font-size: 20px;
+}
+
+.link-text {
+  text-decoration: underline;
+  color: #212121;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #ec715f;
+  line-height: 60px;
+}
+.copyright {
+  font-size: 16px;
+  color: #fafafa;
+  text-align: center;
 }
